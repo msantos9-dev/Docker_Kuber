@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>biz.global77</groupId>
-	<artifactId>Cards</artifactId>
+	<artifactId>Accounts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Cards</name>
-	<description>Cards </description>
+	<name>accounts</name>
+	<description>Accounts</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -59,9 +59,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<image>
-					<name>226772/${project.name}</name>
-					</image>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>

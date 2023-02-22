@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+
+  accounts:
+    image: 226772/accounts:latest
+    mem_limit: 700m
+    ports:
+      - "1010:1010"
+    networks:
+      - globalbank-network
+  loans:
+    image: 226772/loans:latest
+    mem_limit: 700m
+    ports:
+      - "2020:2020"
+    networks:
+      - globalbank-network
+  cards:
+    image: 226772/cards:latest
+    mem_limit: 700m
+    ports:
+      - "3030:3030"
+    networks:
+      - globalbank-network
+    
+networks:
+  globalbank-network:
