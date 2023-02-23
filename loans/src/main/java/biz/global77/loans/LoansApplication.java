@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @ComponentScans({ @ComponentScan("biz.global77.loans.controller") })
 @EnableJpaRepositories("biz.global77.loans.repository")
-@EntityScan("biz.global77.loans.model")
+@EntityScan("biz.global77.loans.models")
 public class LoansApplication {
 
 	public static void main(String[] args) {

@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScans;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScans({ @ComponentScan("biz.global7.accounts.controller") })
+@ComponentScans({ @ComponentScan("biz.global77.accounts.controller") })
 @EnableJpaRepositories("biz.global77.accounts.repository")
-@EntityScan("biz.global77.accounts.model")
+@EntityScan("biz.global77.accounts.models")
 public class AccountsApplication {
 
 	public static void main(String[] args) {

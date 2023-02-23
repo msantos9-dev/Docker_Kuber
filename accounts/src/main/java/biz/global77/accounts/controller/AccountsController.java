@@ -10,8 +10,6 @@ import biz.global77.accounts.models.Accounts;
 import biz.global77.accounts.models.Customer;
 import biz.global77.accounts.repository.AccountsRepository;
 
-
-
 @RestController
 public class AccountsController {
 	

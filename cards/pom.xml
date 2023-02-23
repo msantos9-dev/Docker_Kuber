@@ -11,7 +11,7 @@
 	<groupId>biz.global77</groupId>
 	<artifactId>Cards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Cards</name>
+	<name>cards</name>
 	<description>Cards </description>
 	<properties>
 		<java.version>17</java.version>
